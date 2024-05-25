@@ -1,14 +1,14 @@
 ﻿namespace BendingBitsProcess.Modelos;
 
-internal class FileManager
+public class FileManager
 {
 
-    string logFileName = "processamento.log";
-    string resultFileName = "result.txt";
-    string directoryFilePath = null;
+    public string logFileName = "processamento.log";
+    public string resultFileName = "result.txt";
+    public string directoryFilePath = null;
 
 
-    private string ReadFilePath()
+    public string ReadFilePath()
     {
         string baseDirectory = AppDomain.CurrentDomain.BaseDirectory;
         DirectoryInfo dirInfo = new DirectoryInfo(baseDirectory);

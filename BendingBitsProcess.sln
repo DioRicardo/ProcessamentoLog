@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BendingBitsProcess", "BendingBitsProcess\BendingBitsProcess.csproj", "{22CB05F6-6A5D-46D8-982A-2B2378D7E180}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BendingBitsProcess.Testes", "BendingBitsProcess.Testes\BendingBitsProcess.Testes.csproj", "{33C44FA8-3540-4398-80FB-51818C01C105}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{22CB05F6-6A5D-46D8-982A-2B2378D7E180}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22CB05F6-6A5D-46D8-982A-2B2378D7E180}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22CB05F6-6A5D-46D8-982A-2B2378D7E180}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33C44FA8-3540-4398-80FB-51818C01C105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33C44FA8-3540-4398-80FB-51818C01C105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33C44FA8-3540-4398-80FB-51818C01C105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33C44FA8-3540-4398-80FB-51818C01C105}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

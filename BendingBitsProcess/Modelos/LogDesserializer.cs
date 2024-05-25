@@ -2,7 +2,7 @@
 
 namespace BendingBitsProcess.Modelos;
 
-internal class LogDesserializer
+public class LogDesserializer
 {
     Regex HashRegex = new Regex(@"item\.MensagemHash:\s(?<hash>[A-Z0-9]+)");
     Regex realmRegex = new Regex(@"item.RealmInicial:\s(?<realm>\w+)");
