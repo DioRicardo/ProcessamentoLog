@@ -1,6 +1,6 @@
 ﻿using System.Text.RegularExpressions;
 
-namespace BendingBitsProcess;
+namespace BendingBitsProcess.Modelos;
 
 internal class LogDesserializer
 {
@@ -12,7 +12,7 @@ internal class LogDesserializer
 
     public Dictionary<string, List<string>> GroupHashInfo(string[] fileLog)
     {
-        
+
         Dictionary<string, List<string>> hashByRealm = new Dictionary<string, List<string>>();
 
         // Verificador de início de blocos.
@@ -23,13 +23,13 @@ internal class LogDesserializer
 
         foreach (string line in fileLog)
         {
-            if(line.Contains(textBlockStart))
+            if (line.Contains(textBlockStart))
             {
                 isBlock = true;
                 currentBlock.Clear();
             }
 
-            if(isBlock)
+            if (isBlock)
             {
                 currentBlock.Add(line);
             }
@@ -41,30 +41,30 @@ internal class LogDesserializer
             {
                 isBlock = false;
 
-                if(currentBlock.Any(line => line.Contains(textError)))
+                if (currentBlock.Any(line => line.Contains(textError)))
                 {
                     string hash = null;
                     string realm = null;
 
-                    foreach(string lineBlock in currentBlock)
+                    foreach (string lineBlock in currentBlock)
                     {
                         Match hashMatch = HashRegex.Match(lineBlock);
-                        if(hashMatch.Success)
+                        if (hashMatch.Success)
                         {
                             hash = hashMatch.Groups["hash"].Value;
                         }
 
                         Match realmMatch = realmRegex.Match(lineBlock);
 
-                        if(realmMatch.Success)
+                        if (realmMatch.Success)
                         {
                             realm = realmMatch.Groups["realm"].Value;
                         }
                     }
 
-                    if(!string.IsNullOrEmpty(realm) && !string.IsNullOrEmpty(hash))
+                    if (!string.IsNullOrEmpty(realm) && !string.IsNullOrEmpty(hash))
                     {
-                        if(!hashByRealm.ContainsKey(realm))
+                        if (!hashByRealm.ContainsKey(realm))
                         {
                             hashByRealm[realm] = new List<string>();
                         }

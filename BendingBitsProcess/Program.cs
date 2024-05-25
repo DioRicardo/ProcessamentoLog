@@ -1,6 +1,6 @@
-﻿using BendingBitsProcess;
+﻿using BendingBitsProcess.Modelos;
 
-while(true)
+while (true)
 {
     Console.Clear();
     Console.WriteLine("BEM-VINDO AO PROCESSAMENTO DE LOG's:\n");

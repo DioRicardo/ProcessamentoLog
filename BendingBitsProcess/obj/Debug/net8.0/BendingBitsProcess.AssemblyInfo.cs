@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BendingBitsProcess")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+939685fef260d0c4a82c7025d69b7c2c51174e61")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+564a5b7fa8edacdebb1c2663a021ae755270ffce")]
 [assembly: System.Reflection.AssemblyProductAttribute("BendingBitsProcess")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BendingBitsProcess")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

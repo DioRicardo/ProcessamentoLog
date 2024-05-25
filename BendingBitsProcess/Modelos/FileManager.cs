@@ -1,8 +1,8 @@
-﻿namespace BendingBitsProcess;
+﻿namespace BendingBitsProcess.Modelos;
 
 internal class FileManager
 {
-    
+
     string logFileName = "processamento.log";
     string resultFileName = "result.txt";
     string directoryFilePath = null;
@@ -16,7 +16,7 @@ internal class FileManager
         string directoryFilesName = "ArquivoLog";
         directoryFilePath = Path.Combine(basicPath, directoryFilesName);
 
-        if(!Directory.Exists(directoryFilePath))
+        if (!Directory.Exists(directoryFilePath))
         {
             Directory.CreateDirectory(directoryFilePath);
         }
@@ -28,7 +28,7 @@ internal class FileManager
 
     public string[] ReadLogFile()
     {
-        string logFullPath = ReadFilePath();        
+        string logFullPath = ReadFilePath();
 
         try
         {
@@ -38,7 +38,7 @@ internal class FileManager
         {
             string[] errorMessage = { $"{ex.Message}" };
             return errorMessage;
-        }        
+        }
     }
 
     public void CreateResultFile(Dictionary<string, List<string>> groupData)
@@ -47,10 +47,10 @@ internal class FileManager
 
         using (StreamWriter streamWriter = new StreamWriter(resultFilePath))
         {
-            foreach(var realm in groupData)
+            foreach (var realm in groupData)
             {
                 streamWriter.WriteLine($"{realm.Key}");
-                foreach(var hash in realm.Value)
+                foreach (var hash in realm.Value)
                 {
                     streamWriter.WriteLine($"\"{hash}\",");
                 }
