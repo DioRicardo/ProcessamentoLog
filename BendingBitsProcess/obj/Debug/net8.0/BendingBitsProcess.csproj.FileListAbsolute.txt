@@ -12,3 +12,4 @@ E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\obj
 E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\obj\Debug\net8.0\BendingBitsProcess.pdb
 E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\obj\Debug\net8.0\BendingBitsProcess.genruntimeconfig.cache
 E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\obj\Debug\net8.0\ref\BendingBitsProcess.dll
+E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\obj\Debug\net8.0\BendingBitsProcess.sourcelink.json

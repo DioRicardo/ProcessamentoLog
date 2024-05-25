@@ -1,6 +1,4 @@
-﻿using System.Threading.Channels;
-
-namespace BendingBitsProcess;
+﻿namespace BendingBitsProcess;
 
 internal class FileManager
 {
@@ -18,6 +16,11 @@ internal class FileManager
         string directoryFilesName = "ArquivoLog";
         directoryFilePath = Path.Combine(basicPath, directoryFilesName);
 
+        if(!Directory.Exists(directoryFilePath))
+        {
+            Directory.CreateDirectory(directoryFilePath);
+        }
+
         string logFullPath = Path.Combine(directoryFilePath, logFileName);
 
         return logFullPath;
@@ -25,8 +28,7 @@ internal class FileManager
 
     public string[] ReadLogFile()
     {
-        string logFullPath = ReadFilePath();
-        
+        string logFullPath = ReadFilePath();        
 
         try
         {
@@ -36,8 +38,7 @@ internal class FileManager
         {
             string[] errorMessage = { $"{ex.Message}" };
             return errorMessage;
-        }
-        
+        }        
     }
 
     public void CreateResultFile(Dictionary<string, List<string>> groupData)
