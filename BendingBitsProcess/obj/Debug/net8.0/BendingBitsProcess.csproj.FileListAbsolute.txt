@@ -1,0 +1,14 @@
+E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\bin\Debug\net8.0\BendingBitsProcess.exe
+E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\bin\Debug\net8.0\BendingBitsProcess.deps.json
+E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\bin\Debug\net8.0\BendingBitsProcess.runtimeconfig.json
+E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\bin\Debug\net8.0\BendingBitsProcess.dll
+E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\bin\Debug\net8.0\BendingBitsProcess.pdb
+E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\obj\Debug\net8.0\BendingBitsProcess.GeneratedMSBuildEditorConfig.editorconfig
+E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\obj\Debug\net8.0\BendingBitsProcess.AssemblyInfoInputs.cache
+E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\obj\Debug\net8.0\BendingBitsProcess.AssemblyInfo.cs
+E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\obj\Debug\net8.0\BendingBitsProcess.csproj.CoreCompileInputs.cache
+E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\obj\Debug\net8.0\BendingBitsProcess.dll
+E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\obj\Debug\net8.0\refint\BendingBitsProcess.dll
+E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\obj\Debug\net8.0\BendingBitsProcess.pdb
+E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\obj\Debug\net8.0\BendingBitsProcess.genruntimeconfig.cache
+E:\Cursos\ProjetosPessoais\BendingBits\BendingBitsProcess\BendingBitsProcess\obj\Debug\net8.0\ref\BendingBitsProcess.dll
